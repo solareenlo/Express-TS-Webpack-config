@@ -4,6 +4,7 @@ Express, TypeScript, Webpackを使う時の基本的な設定ファイル.
 - https://qiita.com/IgnorantCoder/items/c9b79dbab8c1a34b769f
 
 ## 5つの設定ファイルを使うときは,
+### npmを使う場合は,
 - `$ npm install --save express`
 - `$ npm install --save-dev @types/express`
 - `$ npm install --save-dev typescript ts-loader tslint tslint-loader tslint-config-airbnb`
@@ -12,6 +13,10 @@ Express, TypeScript, Webpackを使う時の基本的な設定ファイル.
 をインストール.  
 まとめると,
 - `$ npm install --save-dev @types/express typescript ts-loader tslint tslint-loader tslint-config-airbnb webpack webpack-cli webpack-node-externals`
+
+### yarnを使う場合は,
+- `$ yarn add express`
+- `$ yarn add --save @types/express typescript ts-loader tslint tslint-loader tslint-config-airbnb webpack webpack-cli webpack-node-externals`
 
 ## Webpackを使うには, WebpackのPATHを通しておく.
 macでは, *~/.bashrc*か, *~/.bash_profile*に  
