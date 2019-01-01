@@ -30,7 +30,7 @@ macでは, *~/.bashrc*か, *~/.bash_profile*に
 を実行.  
 
 もしくは, *package.json*の`"scripts":{}`のところに,
-- "test": "webpack --config webpack.config.dev.js && node dist/server.js"
+- "test": "webpack --config webpack.config.dev.js && node dist/server.js"  
 を追加.
 
 ### 本番環境では,
@@ -39,5 +39,5 @@ macでは, *~/.bashrc*か, *~/.bash_profile*に
 を実行.  
 
 もしくは, *package.json*の`"scripts":{}`のところに,
-- "start": "webpack --config webpack.config.prob.js && node dist/server.js"
+- "start": "webpack --config webpack.config.prob.js && node dist/server.js"  
 を追加.
