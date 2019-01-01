@@ -10,6 +10,11 @@ Express, TypeScript, Webpackを使う時の基本的な設定ファイル.
 - `$ npm install --save-dev webpack webpack-cli`  
 をインストール.
 
+## Webpackを使うには, WebpackのPATHを通しておく.
+macでは, *~/.bashrc*か, *~/.bash_profile*に  
+`export PATH=$PATH:./node_modules/.bin`  
+を追加する.
+
 ## プログラムを作成した後は,
 開発環境では,
 - `$ webpack --config webpack.config.dev.js`
