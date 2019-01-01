@@ -5,6 +5,10 @@ module.exports = {
   mode: 'development',
   entry: './src/server.ts',
   target: 'node',
+  node: {
+    __dirname: false,
+    __filename: false,
+  },
   externals: [nodeExternals()],
   devtool: 'inline-source-map',
   module: {
