@@ -18,6 +18,15 @@ Express, TypeScript, Webpackを使う時の基本的な設定ファイル.
 - `$ yarn add express`
 - `$ yarn add --dev @types/express typescript ts-loader tslint tslint-loader tslint-config-airbnb webpack webpack-cli webpack-node-externals`
 
+### 追加機能で, コンパイルされない静的ファイルをコンパイル後のディレクトリ(ここではdist）にコピーするには,
+- `$ yarn add --dev @types/shelljs shelljs ts-node`  
+を追加でインストールしてから,  
+*package.json*の`"scripts":{}`に,
+- `"test": "webpack --config webpack.config.dev.js && yarn copy-static-assets && node dist/server.js",`
+- `"copy-static-assets": "ts-node copyStaticAssets.ts"`  
+を追加して,  
+ここのgithubのリポジトリにあるように*copyStaticAssets.ts*ファイルを新規作成する.
+
 ## Webpackを使うには, WebpackのPATHを通しておく.
 macでは, *~/.bashrc*か, *~/.bash_profile*に  
 `export PATH=$PATH:./node_modules/.bin`  
