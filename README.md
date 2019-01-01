@@ -25,7 +25,7 @@ Express, TypeScript, Webpackを使う時の基本的な設定ファイル.
 - `"test": "webpack --config webpack.config.dev.js && yarn copy-static-assets && node dist/server.js",`
 - `"copy-static-assets": "ts-node copyStaticAssets.ts"`  
 を追加して,  
-ここのgithubのリポジトリにあるように*copyStaticAssets.ts*ファイルを新規作成する.
+ここのgithubのリポジトリにあるような[copyStaticAssets.ts](/copyStaticAssets.ts)ファイルを新規作成する.
 
 ## Webpackを使うには, WebpackのPATHを通しておく.
 macでは, *~/.bashrc*か, *~/.bash_profile*に  
