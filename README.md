@@ -16,7 +16,7 @@ Express, TypeScript, Webpackを使う時の基本的な設定ファイル.
 
 ### yarnを使う場合は,
 - `$ yarn add express`
-- `$ yarn add --save @types/express typescript ts-loader tslint tslint-loader tslint-config-airbnb webpack webpack-cli webpack-node-externals`
+- `$ yarn add --div @types/express typescript ts-loader tslint tslint-loader tslint-config-airbnb webpack webpack-cli webpack-node-externals`
 
 ## Webpackを使うには, WebpackのPATHを通しておく.
 macでは, *~/.bashrc*か, *~/.bash_profile*に  
