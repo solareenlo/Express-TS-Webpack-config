@@ -7,7 +7,8 @@ Express, TypeScript, Webpackを使う時の基本的な設定ファイル.
 - `$ npm install --save express`
 - `$ npm install --save-dev @types/express`
 - `$ npm install --save-dev typescript ts-loader tslint tslint-loader tslint-config-airbnb`
-- `$ npm install --save-dev webpack webpack-cli`  
+- `$ npm install --save-dev webpack webpack-cli`
+- `$ npm install --save-dev webpack-node-externals`  
 をインストール.
 
 ## Webpackを使うには, WebpackのPATHを通しておく.
