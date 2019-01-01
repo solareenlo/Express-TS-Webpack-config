@@ -28,7 +28,8 @@ Express, TypeScript, Webpackを使う時の基本的な設定ファイル.
 ここのgithubのリポジトリにあるような[copyStaticAssets.ts](/copyStaticAssets.ts)ファイルを新規作成する.  
 
 #### この機能の例はこちら,
-- https://github.com/solareenlo/Web-App-with-Nodejs-Express/tree/master/05_Static_Filek
+- https://github.com/solareenlo/Web-App-with-Nodejs-Express  
+の, 05_Static_File.
 
 ## Webpackを使うには, WebpackのPATHを通しておく.
 macでは, *~/.bashrc*か, *~/.bash_profile*に  
