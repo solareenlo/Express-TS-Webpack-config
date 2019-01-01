@@ -19,12 +19,20 @@ macでは, *~/.bashrc*か, *~/.bash_profile*に
 を追加する.
 
 ## プログラムを作成した後は,
-開発環境では,
+### 開発環境では,
 - `$ webpack --config webpack.config.dev.js`
 - `$ node dist/server.js`  
 を実行.  
-  
-本番環境では,
+
+もしくは, *package.json*の*"scripts":{}*のところに,
+- "test": "webpack --config webpack.config.dev.js && node dist/server.js"
+を追加.
+
+### 本番環境では,
 - `$ webpack --config webpack.config.prob.js`
 - `$ node dist/server.js`  
-を実行.
+を実行.  
+
+もしくは, *package.json*の*"scripts":{}*のところに,
+- "start": "webpack --config webpack.config.prob.js && node dist/server.js"
+を追加.
